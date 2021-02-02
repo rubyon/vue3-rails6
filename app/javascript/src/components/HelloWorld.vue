@@ -10,11 +10,11 @@ import { ref } from 'vue'
 export default {
   name: 'HelloWorld',
   setup() {
-      const message = ref('Vue 3 + Rails 6')
+    const message = ref('Vue 3 + Rails 6')
 
-      return {
-        message
-      }
+    return {
+      message
+    }
   }
 }
 </script>
