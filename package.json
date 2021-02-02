@@ -1,6 +1,11 @@
 {
   "name": "vue3-rails6",
   "private": true,
+  "scripts": {
+    "dev": "./bin/webpack-dev-server",
+    "build": "./bin/webpack --progress",
+    "clean": "rm -rf ./public/packs/"
+  },
   "dependencies": {
     "@rails/actioncable": "^6.1.1",
     "@rails/activestorage": "^6.1.1",
