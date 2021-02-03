@@ -5,6 +5,6 @@ import { router } from './router'
 export default () => {
   document.addEventListener('DOMContentLoaded', () => {
     const app = createApp(App).use(router)
-    app.mount('#vue-app')
+    app.mount('#app')
   })
 }
